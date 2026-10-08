@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Datamach
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Datamach is a tech-skills and talent platform. It trains people in in-demand tech skills and connects the trained talent with employers who need reliable developers and analysts. This repository is the Datamach website.
 
-## Available Scripts
+## Business idea
 
-In the project directory, you can run:
+Many people want to start a tech career but don't know where to begin, and employers struggle to find job-ready talent they can trust. Datamach sits between the two:
 
-### `npm start`
+- **Learn** â€” learners explore and enrol in courses such as:
+  - Backend development (PHP, Node.js)
+  - Frontend development (React, Angular, Vue)
+  - Data analysis (Python, Django)
+- **Get hired** â€” employers find and hire reliable, professional talent trained by Datamach.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Revenue comes from course fees and from placing talent with employers.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Key features
 
-### `npm test`
+- Landing page with banner, "About Datamach", course catalogue and employer section
+- Learner registration and login pages
+- Responsive navigation and footer
+- Carousels and Material UI components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech stack
 
-### `npm run build`
+- React (Create React App)
+- React Router
+- Material UI and Tailwind CSS
+- Redux store setup (`src/app/store.js`)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+npm start        # http://localhost:3000
+npm run build
+npm test
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Status
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This is the first version of the site: the landing page, course list and authentication pages are built. Course enrolment and employer hiring flows are planned next.
