@@ -6,11 +6,11 @@ Datamach is a tech-skills and talent platform. It trains people in in-demand tec
 
 Many people want to start a tech career but don't know where to begin, and employers struggle to find job-ready talent they can trust. Datamach sits between the two:
 
-- **Learn** â€” learners explore and enrol in courses such as:
+- **Learn** — learners explore and enrol in courses such as:
   - Backend development (PHP, Node.js)
   - Frontend development (React, Angular, Vue)
   - Data analysis (Python, Django)
-- **Get hired** â€” employers find and hire reliable, professional talent trained by Datamach.
+- **Get hired** — employers find and hire reliable, professional talent trained by Datamach.
 
 Revenue comes from course fees and from placing talent with employers.
 
